@@ -11,7 +11,7 @@ function Item({ name, category }) {
     <li className={AddItem}>
       <span>{name}</span>
       <span className="category">{category}</span>
-      <button onClick= {addItem} className="add">{ItemAdded ? "Add to Cart" : "Remove from Cart"}</button>
+      <button onClick= {addItem} className="add">{ItemAdded ? "Remove from Cart" : "Add  Cart"}</button>
     </li>
   );
 }
